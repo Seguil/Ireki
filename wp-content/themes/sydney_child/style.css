@@ -1,0 +1,593 @@
+@import "https://use.fontawesome.com/releases/v5.11.2/css/all.css";
+/*
+Theme Name: Sydney child
+Description: Sydney child
+Author: Séverine Guillemin - Sydney-Child
+Author URI: http://localhost/ireki2
+Template: sydney
+Version: 0.1.0
+*/
+
+/*font*/
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.eot');
+    src: url('Comfortaa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-Regular.woff2') format('woff2'),
+        url('Comfortaa-Regular.woff') format('woff'),
+        url('Comfortaa-Regular.ttf') format('truetype'),
+        url('Comfortaa-Regular.svg#Comfortaa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*---Style général------------------------------------------*/
+
+body {
+	font-family: Comfortaa, Arial, "Times-new-roman", sans-serif;
+}
+
+/*texte*/
+h1, h2, h3, h4, h5, p, a, span, strong {
+	color: #0066bf !important;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, p:hover, a:hover, span:hover, strong:hover {
+	color: #004988 !important;
+}
+
+p {
+	text-align: justify;
+}
+/*Fin texte*/
+
+/*Boutons avec liens*/
+.roll-button.button-slider, .wp-block-button__link, .entry-footer, .event_button, .read-more, .wpforms-submit, .em-booking-submit {
+	background-color: #0066bf !important;
+	transition: all 500ms !important;
+	border-radius: 10px !important;
+}
+
+.roll-button.button-slider:hover, .wp-block-button__link:hover, .entry-footer:hover, .event_button:hover, .read-more:hover, .wpforms-submit:hover, .em-booking-submit:hover {
+	background-color: #004988 !important;
+	transform: scale(1.10);
+	border-radius: 13px;
+}
+
+a.roll-button.button-slider, a.wp-block-button__link, a.post-edit-link, a.event_button, span.read-more, button.wpforms-submit, input.em-booking-submit {
+	color: white !important;
+}
+/*Fin boutons avec liens*/
+
+/*Page*/
+#page {
+	width: 100%;
+}
+
+.site-header {
+	background-color: white !important;
+	opacity: 1 !important;
+	padding: 0;
+}
+
+.container.content-wrapper {
+	background-color: transparent;
+}
+
+.entry-header {
+	padding-top: 30px;
+}
+
+#content {
+	min-height: 100vh;
+}
+
+.entry-content p a {
+	text-decoration: underline;
+}
+
+article, #derniere_actualite {
+	background-color: rgba(231, 244, 255, 1);	
+	margin: 20px 0;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.entry-footer {
+	margin-top: 0 !important;
+}
+
+.footer-widgets {
+	padding: 20px 0;
+}
+
+#sidebar-footer {
+	margin-bottom: -10px;
+}
+
+.go-top.show {
+	visibility: visible !important;
+	bottom: 11px;
+}
+
+.fa.fa-angle-up {
+	color: white;
+}
+
+.go-top.show:hover {
+	background-color: transparent;
+	border: 1px #0066bf solid;
+}
+
+.go-top.show:hover i {
+	color: #0066bf;
+}
+
+#primary {
+	width: 100% !important;
+	margin: 0;
+}
+
+img.entry-thumb {
+	opacity: 1 !important;
+}
+/*Fin page*/
+
+/*---Eléments supprimés---*/
+.site-footer {
+	display: none;
+}
+/*suppression des noms de catégories*/
+.page-header {
+	display: none;
+}
+
+/*Suppression des infos d'écriture des articles*/
+span.posted-on, .hentry .meta-post .cat-links {
+	display: none;
+}
+
+span.cat-links {
+	display: none;
+}
+
+.single-post article .entry-footer span.tags-links {
+	display: none;
+}
+
+#em-wrapper p{
+	display: none;
+}
+/*---Fin des éléments supprimés---*/
+/*---Fin style général---------------------------------------------------*/
+
+/*---En-tête de la page--------------------------------------------------*/
+img.site-logo {
+	max-height: 80px;
+}
+
+.col-md-4.col-sm-8.col-xs-12 {
+	width: 20%;
+}
+/*Menu*/
+.col-md-8.col-sm-4.col-xs-12 {
+	width: 80%;
+}
+#mainnav .fa-home {
+    margin-bottom: 3px;
+}
+
+#mainnav li:hover {
+	background-color: #E7F4FF;
+	border-radius: 8px;
+}
+
+#mainnav-mobi {
+	width: auto;
+	margin-top: 55px;
+	right: 0;
+	top: 20%;
+}
+
+#mainnav-mobi ul {
+	background-color: white;
+}
+
+#mainnav-mobi ul  li  a {
+	padding: 5px 30px;
+}
+
+#mainnav-mobi li:hover {
+	background-color: #E7F4FF;
+}
+
+/*---Fin en-tête de la page---------------------------------------------*/
+
+
+/*---Page d'accueil-----------------------------------------------------*/
+/*Slide*/
+h2.maintitle, p.subtitle {
+	color: white !important;
+	text-shadow:  0 0 10px #0066bf, 0 0 10px #0066bf, 0 0 10px #0066bf !important;
+}
+
+p.subtitle {
+    text-align: center;
+}
+
+.roll-button.button-slider {
+	background-color: #E7F4FF !important;
+	box-shadow: 0 0 10px white;
+	transition: all 500ms !important;
+	border: none;
+	border-radius: 10px !important;
+	opacity: 0.9;
+}
+
+.roll-button.button-slider:hover {
+	background-color: #E7F4FF !important;
+	transform: scale(1.10);
+	border-radius: 13px;
+}
+
+a.roll-button.button-slider {
+	color: #0066bf !important;
+}
+
+/*espace sous le slide*/
+#espace {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-color: white;
+	width: auto;
+	margin-left: -381px;
+	margin-right: -381px;
+}
+
+/*Présentation du menu*/
+#presentation_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 30px;
+	margin-left: -150px;
+	margin-right: -150px;
+}
+
+.wp-block-image {
+	max-width: 45%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border: 10px white solid;
+	box-shadow: 0 0 5px #0066bf;
+	margin: 10px;
+}
+
+.wp-block-image strong {
+	font-size: 2em;
+	color: white !important;
+}
+
+#presentation_menu figcaption {
+	position: absolute;
+	bottom: -50px;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 50px;
+	color: white;
+	margin: 0;
+	transition: all 0.5s;
+}
+
+#presentation_menu figure:hover figcaption {
+	bottom: 0;
+}
+
+/*Dernière actualité page d'accueil*/
+#derniere_actualite .latest-post-selection article {
+	flex-direction: column;
+	text-align: justify;
+	padding: 3%;
+	background-color: transparent;
+	border: 0;
+} 
+
+#derniere_actualite .latest-post-selection article p {
+	margin: 0 10px;
+}
+
+#derniere_actualite .latest-post-selection article .read-more {
+	padding: 5px 15px;
+}
+
+#derniere_actualite {
+	margin-bottom: 70px;
+}
+/*---Fin page d'accueil-------------------------------------------------*/
+
+
+/*---Mise en forme des articles dans les pages principales--------------*/
+.category-infos, .category-actualites {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.entry-thumb {
+	order: 2;
+	width: 100%;
+	flex: 1;
+}
+
+article .entry-thumb img {
+    max-width: 80%;
+}
+
+.entry-header {
+	order: 1;
+	width: 100%;
+	flex: 1;
+}
+
+.content-area .hentry {
+	padding-top: 20px;
+}
+
+.hentry:after {
+	display: none;
+}
+
+.entry-post {
+	order: 3;
+	margin-left: 10px;
+	flex: 2;
+}
+
+.entry-post p {
+	text-align: justify;
+}
+
+.entry-footer {
+	order: 4;
+	margin-top: 110px;			
+}
+
+.hentry .meta-post, .content-area .entry-thumb, .entry-post p {
+	margin-bottom: 0;
+}
+
+.post-edit-link {
+	padding: 10px;
+}
+/*---Fin mise en forme des articles dans les pages principales--------------*/
+
+
+/*---Mise en forme de chaque article sur sa page----------------------------*/
+.single-post article {
+	display: flex;
+	flex-direction: column;
+}
+
+.single-post article .entry-header {
+	order: 1;
+	width: 100%;
+}
+
+.single-post article .entry-thumb {
+	order: 2;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.single-post article .entry-thumb img {
+	max-width: 50%;
+}
+
+.single-post article .entry-content {
+	order: 3;
+	text-align: justify;
+}
+
+.single-post article .entry-footer {
+	order: 4;
+	margin-bottom: 20px;
+}
+
+.post-navigation {
+	background-color: #B5E4FF;
+	opacity: 0.9;
+	border-radius: 20px;
+}
+/*---Fin mise en forme de chaque article sur sa page----------------------------*/
+
+/*---Page des activités du mois-------------------------------------------------*/
+thead {
+	background-color: #0066bf;
+}
+
+thead tr {
+	color: white;
+	font-size: 1.2em;
+}
+
+.css-events-list table.events-table th.event-time {
+	width: 20%;
+}
+
+.css-events-list table.events-table th.event-description {
+	width: 25%;
+}
+
+.css-events-list table.events-table th.event-inscription {
+	width: 20%;
+}
+
+.css-events-list table.events-table th.event-descriptif {
+	width: 35%;
+}
+
+.css-events-list table.events-table td {
+	padding: 20px;
+}
+
+.event_button {
+	padding: 12px 15px;
+}
+
+thead th, td {
+	border: 0;
+}
+
+tbody tr {
+	padding: 50px 10px;
+}
+
+tbody th, td {
+	border: 0;
+	border-bottom: 3px #71abdd solid;
+}
+
+tbody tr:hover {
+	background-color: white;
+	opacity: 0.8;
+}
+
+tbody tr td:nth-child(2) a {
+	font-weight: bolder;
+}
+/*---Fin page des activités du mois-------------------------------------------------*/
+
+/*---Page contact-------------------------------------------------------------------*/
+#post-240 p, #post-240 strong {
+	text-align: center;
+}
+
+#wpforms-form-162 select, #wpforms-form-162 input {
+	max-width: 100%;
+}
+/*---Fin page contact---------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---Media Queries-------------------------------------------------------------------*/
+
+@media screen and (max-width: 1024px) {
+	.btn-menu {
+		margin: 20px;
+	}
+
+	h5 {
+		margin-bottom: 10px;
+	}
+
+	#espace {
+		margin-top: -20px;
+	}
+
+	#presentation_menu {
+		margin-left: 0;
+		margin-right: 0;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#presentation_menu figcaption {
+		bottom: 0;
+	}
+	.wp-block-image {
+		margin: 20px;
+		max-width: 45%;
+	}
+
+	.wp-block-image strong {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/*En-tête des pages*/
+	#masthead .row {
+		display: flex;
+		align-items: center;
+	}
+	.header-wrap {
+		text-align: left;
+	}
+	.btn-menu {
+		float: right;
+	}
+	/*Page d'accueil*/
+	#espace {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#presentation_menu {
+		flex-direction: column;
+		align-content: center;
+	}
+	.wp-block-image {
+		max-width: 60%;
+	}
+	
+	.latest-post-selection article img {
+		display: none;
+	}
+	.latest-post-selection article p {
+		display: none;
+	}
+	/*articles pages principales*/
+	article {
+		flex-direction: column;
+	}
+	article p, a {
+		font-size: 1em;
+	}
+	/*Tableau des activités*/
+	table th, table a {
+		font-size: 0.8em;
+	}
+	table {
+		margin: 0;
+	}
+	thead {
+		display: none;
+	}
+	tr {
+		display: flex;
+		flex-direction: column;
+		border-bottom: 3px #71abdd solid;
+	}
+	tbody tr {
+		padding: 10px 0;
+	}
+	tbody th, td {
+			border-bottom: 0;
+	}
+	.css-events-list table.events-table td {
+		padding: 0;
+	}
+	.event_desc {
+		padding-bottom: 3px;
+	}
+	.event_button {
+		padding: 8px;
+	}
+	input[type="submit"] {
+		padding: 0 5px;
+		text-transform: none;
+	}
+	.input-group {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.wp-block-image strong {
+		font-size: 1.3em;
+	}
+}

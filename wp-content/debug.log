@@ -1,0 +1,126 @@
+[18-Oct-2019 13:50:31 UTC] PHP Warning:  fopen(C:\wamp64\www\ireki/wp-content/plugins/wp-events-manager/wp-events-manager.php): failed to open stream: No such file or directory in C:\wamp64\www\ireki\wp-includes\functions.php on line 5573
+[18-Oct-2019 13:50:31 UTC] PHP Stack trace:
+[18-Oct-2019 13:50:31 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:0
+[18-Oct-2019 13:50:31 UTC] PHP   2. do_action() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:173
+[18-Oct-2019 13:50:31 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[18-Oct-2019 13:50:31 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[18-Oct-2019 13:50:31 UTC] PHP   5. wp_ajax_delete_plugin() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[18-Oct-2019 13:50:31 UTC] PHP   6. get_plugin_data() C:\wamp64\www\ireki\wp-admin\includes\ajax-actions.php:4282
+[18-Oct-2019 13:50:31 UTC] PHP   7. get_file_data() C:\wamp64\www\ireki\wp-admin\includes\plugin.php:84
+[18-Oct-2019 13:50:31 UTC] PHP   8. fopen() C:\wamp64\www\ireki\wp-includes\functions.php:5573
+[18-Oct-2019 13:50:31 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in C:\wamp64\www\ireki\wp-includes\functions.php on line 5576
+[18-Oct-2019 13:50:31 UTC] PHP Stack trace:
+[18-Oct-2019 13:50:31 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:0
+[18-Oct-2019 13:50:31 UTC] PHP   2. do_action() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:173
+[18-Oct-2019 13:50:31 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[18-Oct-2019 13:50:31 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[18-Oct-2019 13:50:31 UTC] PHP   5. wp_ajax_delete_plugin() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[18-Oct-2019 13:50:31 UTC] PHP   6. get_plugin_data() C:\wamp64\www\ireki\wp-admin\includes\ajax-actions.php:4282
+[18-Oct-2019 13:50:31 UTC] PHP   7. get_file_data() C:\wamp64\www\ireki\wp-admin\includes\plugin.php:84
+[18-Oct-2019 13:50:31 UTC] PHP   8. fread() C:\wamp64\www\ireki\wp-includes\functions.php:5576
+[18-Oct-2019 13:50:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\wamp64\www\ireki\wp-includes\functions.php on line 5579
+[18-Oct-2019 13:50:31 UTC] PHP Stack trace:
+[18-Oct-2019 13:50:31 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:0
+[18-Oct-2019 13:50:31 UTC] PHP   2. do_action() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:173
+[18-Oct-2019 13:50:31 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[18-Oct-2019 13:50:31 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[18-Oct-2019 13:50:31 UTC] PHP   5. wp_ajax_delete_plugin() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[18-Oct-2019 13:50:31 UTC] PHP   6. get_plugin_data() C:\wamp64\www\ireki\wp-admin\includes\ajax-actions.php:4282
+[18-Oct-2019 13:50:31 UTC] PHP   7. get_file_data() C:\wamp64\www\ireki\wp-admin\includes\plugin.php:84
+[18-Oct-2019 13:50:31 UTC] PHP   8. fclose() C:\wamp64\www\ireki\wp-includes\functions.php:5579
+[18-Oct-2019 13:54:15 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\wamp64\www\ireki\wp-content\themes\sydney_child\functions.php on line 11
+[18-Oct-2019 13:54:18 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\wamp64\www\ireki\wp-content\themes\sydney_child\functions.php on line 11
+[18-Oct-2019 13:54:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\wamp64\www\ireki\wp-content\themes\sydney_child\functions.php on line 11
+[18-Oct-2019 13:54:58 UTC] PHP Parse error:  syntax error, unexpected 'href' (T_STRING) in C:\wamp64\www\ireki\wp-content\themes\sydney_child\functions.php on line 11
+[19-Oct-2019 13:29:23 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support/">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur de votre serveur.) in C:\wamp64\www\ireki\wp-includes\update.php on line 384
+[19-Oct-2019 13:29:23 UTC] PHP Stack trace:
+[19-Oct-2019 13:29:23 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-cron.php:0
+[19-Oct-2019 13:29:23 UTC] PHP   2. do_action_ref_array() C:\wamp64\www\ireki\wp-cron.php:133
+[19-Oct-2019 13:29:23 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:531
+[19-Oct-2019 13:29:23 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[19-Oct-2019 13:29:23 UTC] PHP   5. wp_version_check() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[19-Oct-2019 13:29:23 UTC] PHP   6. do_action() C:\wamp64\www\ireki\wp-includes\update.php:240
+[19-Oct-2019 13:29:23 UTC] PHP   7. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[19-Oct-2019 13:29:23 UTC] PHP   8. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[19-Oct-2019 13:29:23 UTC] PHP   9. wp_maybe_auto_update() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[19-Oct-2019 13:29:23 UTC] PHP  10. WP_Automatic_Updater->run() C:\wamp64\www\ireki\wp-includes\update.php:602
+[19-Oct-2019 13:29:23 UTC] PHP  11. wp_update_plugins() C:\wamp64\www\ireki\wp-admin\includes\class-wp-automatic-updater.php:463
+[19-Oct-2019 13:29:23 UTC] PHP  12. trigger_error() C:\wamp64\www\ireki\wp-includes\update.php:384
+[19-Oct-2019 13:32:04 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support/">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur de votre serveur.) in C:\wamp64\www\ireki\wp-admin\includes\translation-install.php on line 65
+[19-Oct-2019 13:32:04 UTC] PHP Stack trace:
+[19-Oct-2019 13:32:04 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\post.php:0
+[19-Oct-2019 13:32:04 UTC] PHP   2. include() C:\wamp64\www\ireki\wp-admin\post.php:178
+[19-Oct-2019 13:32:04 UTC] PHP   3. require_once() C:\wamp64\www\ireki\wp-admin\edit-form-blocks.php:397
+[19-Oct-2019 13:32:04 UTC] PHP   4. do_action() C:\wamp64\www\ireki\wp-admin\admin-header.php:104
+[19-Oct-2019 13:32:04 UTC] PHP   5. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[19-Oct-2019 13:32:04 UTC] PHP   6. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[19-Oct-2019 13:32:04 UTC] PHP   7. WPSEO_Metabox->enqueue() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[19-Oct-2019 13:32:04 UTC] PHP   8. WPSEO_Metabox->localize_post_scraper_script() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:770
+[19-Oct-2019 13:32:04 UTC] PHP   9. WPSEO_Metabox_Formatter->get_values() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:195
+[19-Oct-2019 13:32:04 UTC] PHP  10. WPSEO_Metabox_Formatter->get_defaults() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:35
+[19-Oct-2019 13:32:04 UTC] PHP  11. WPSEO_Language_Utils::get_site_language_name() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:51
+[19-Oct-2019 13:32:04 UTC] PHP  12. wp_get_available_translations() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\inc\language-utils.php:65
+[19-Oct-2019 13:32:04 UTC] PHP  13. translations_api() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:126
+[19-Oct-2019 13:32:04 UTC] PHP  14. trigger_error() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:65
+[19-Oct-2019 13:32:39 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support/">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur de votre serveur.) in C:\wamp64\www\ireki\wp-admin\includes\translation-install.php on line 65
+[19-Oct-2019 13:32:39 UTC] PHP Stack trace:
+[19-Oct-2019 13:32:39 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\post.php:0
+[19-Oct-2019 13:32:39 UTC] PHP   2. include() C:\wamp64\www\ireki\wp-admin\post.php:178
+[19-Oct-2019 13:32:39 UTC] PHP   3. require_once() C:\wamp64\www\ireki\wp-admin\edit-form-blocks.php:397
+[19-Oct-2019 13:32:39 UTC] PHP   4. do_action() C:\wamp64\www\ireki\wp-admin\admin-header.php:104
+[19-Oct-2019 13:32:39 UTC] PHP   5. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[19-Oct-2019 13:32:39 UTC] PHP   6. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[19-Oct-2019 13:32:39 UTC] PHP   7. WPSEO_Metabox->enqueue() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[19-Oct-2019 13:32:39 UTC] PHP   8. WPSEO_Metabox->localize_post_scraper_script() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:770
+[19-Oct-2019 13:32:39 UTC] PHP   9. WPSEO_Metabox_Formatter->get_values() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:195
+[19-Oct-2019 13:32:39 UTC] PHP  10. WPSEO_Metabox_Formatter->get_defaults() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:35
+[19-Oct-2019 13:32:39 UTC] PHP  11. WPSEO_Language_Utils::get_site_language_name() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:51
+[19-Oct-2019 13:32:39 UTC] PHP  12. wp_get_available_translations() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\inc\language-utils.php:65
+[19-Oct-2019 13:32:39 UTC] PHP  13. translations_api() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:126
+[19-Oct-2019 13:32:39 UTC] PHP  14. trigger_error() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:65
+[19-Oct-2019 13:33:32 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support/">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur de votre serveur.) in C:\wamp64\www\ireki\wp-admin\includes\translation-install.php on line 65
+[19-Oct-2019 13:33:32 UTC] PHP Stack trace:
+[19-Oct-2019 13:33:32 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\post.php:0
+[19-Oct-2019 13:33:32 UTC] PHP   2. include() C:\wamp64\www\ireki\wp-admin\post.php:178
+[19-Oct-2019 13:33:32 UTC] PHP   3. require_once() C:\wamp64\www\ireki\wp-admin\edit-form-blocks.php:397
+[19-Oct-2019 13:33:32 UTC] PHP   4. do_action() C:\wamp64\www\ireki\wp-admin\admin-header.php:104
+[19-Oct-2019 13:33:32 UTC] PHP   5. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[19-Oct-2019 13:33:32 UTC] PHP   6. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[19-Oct-2019 13:33:32 UTC] PHP   7. WPSEO_Metabox->enqueue() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[19-Oct-2019 13:33:32 UTC] PHP   8. WPSEO_Metabox->localize_post_scraper_script() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:770
+[19-Oct-2019 13:33:32 UTC] PHP   9. WPSEO_Metabox_Formatter->get_values() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:195
+[19-Oct-2019 13:33:32 UTC] PHP  10. WPSEO_Metabox_Formatter->get_defaults() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:35
+[19-Oct-2019 13:33:32 UTC] PHP  11. WPSEO_Language_Utils::get_site_language_name() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:51
+[19-Oct-2019 13:33:32 UTC] PHP  12. wp_get_available_translations() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\inc\language-utils.php:65
+[19-Oct-2019 13:33:32 UTC] PHP  13. translations_api() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:126
+[19-Oct-2019 13:33:32 UTC] PHP  14. trigger_error() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:65
+[19-Oct-2019 13:33:42 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support/">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur de votre serveur.) in C:\wamp64\www\ireki\wp-admin\includes\translation-install.php on line 65
+[19-Oct-2019 13:33:42 UTC] PHP Stack trace:
+[19-Oct-2019 13:33:42 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\post.php:0
+[19-Oct-2019 13:33:42 UTC] PHP   2. include() C:\wamp64\www\ireki\wp-admin\post.php:178
+[19-Oct-2019 13:33:42 UTC] PHP   3. require_once() C:\wamp64\www\ireki\wp-admin\edit-form-blocks.php:397
+[19-Oct-2019 13:33:42 UTC] PHP   4. do_action() C:\wamp64\www\ireki\wp-admin\admin-header.php:104
+[19-Oct-2019 13:33:42 UTC] PHP   5. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[19-Oct-2019 13:33:42 UTC] PHP   6. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[19-Oct-2019 13:33:42 UTC] PHP   7. WPSEO_Metabox->enqueue() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[19-Oct-2019 13:33:42 UTC] PHP   8. WPSEO_Metabox->localize_post_scraper_script() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:770
+[19-Oct-2019 13:33:42 UTC] PHP   9. WPSEO_Metabox_Formatter->get_values() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\metabox\class-metabox.php:195
+[19-Oct-2019 13:33:42 UTC] PHP  10. WPSEO_Metabox_Formatter->get_defaults() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:35
+[19-Oct-2019 13:33:42 UTC] PHP  11. WPSEO_Language_Utils::get_site_language_name() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\admin\formatter\class-metabox-formatter.php:51
+[19-Oct-2019 13:33:42 UTC] PHP  12. wp_get_available_translations() C:\wamp64\www\ireki\wp-content\plugins\wordpress-seo\inc\language-utils.php:65
+[19-Oct-2019 13:33:42 UTC] PHP  13. translations_api() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:126
+[19-Oct-2019 13:33:42 UTC] PHP  14. trigger_error() C:\wamp64\www\ireki\wp-admin\includes\translation-install.php:65
+[21-Oct-2019 08:10:29 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support/">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur de votre serveur.) in C:\wamp64\www\ireki\wp-includes\update.php on line 569
+[21-Oct-2019 08:10:29 UTC] PHP Stack trace:
+[21-Oct-2019 08:10:29 UTC] PHP   1. {main}() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:0
+[21-Oct-2019 08:10:29 UTC] PHP   2. do_action() C:\wamp64\www\ireki\wp-admin\admin-ajax.php:173
+[21-Oct-2019 08:10:29 UTC] PHP   3. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[21-Oct-2019 08:10:29 UTC] PHP   4. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[21-Oct-2019 08:10:29 UTC] PHP   5. wp_ajax_install_plugin() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:286
+[21-Oct-2019 08:10:29 UTC] PHP   6. Plugin_Upgrader->install() C:\wamp64\www\ireki\wp-admin\includes\ajax-actions.php:4086
+[21-Oct-2019 08:10:29 UTC] PHP   7. Plugin_Upgrader->run() C:\wamp64\www\ireki\wp-admin\includes\class-plugin-upgrader.php:108
+[21-Oct-2019 08:10:29 UTC] PHP   8. do_action() C:\wamp64\www\ireki\wp-admin\includes\class-wp-upgrader.php:835
+[21-Oct-2019 08:10:29 UTC] PHP   9. WP_Hook->do_action() C:\wamp64\www\ireki\wp-includes\plugin.php:465
+[21-Oct-2019 08:10:29 UTC] PHP  10. WP_Hook->apply_filters() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:310
+[21-Oct-2019 08:10:29 UTC] PHP  11. wp_update_themes() C:\wamp64\www\ireki\wp-includes\class-wp-hook.php:284
+[21-Oct-2019 08:10:29 UTC] PHP  12. trigger_error() C:\wamp64\www\ireki\wp-includes\update.php:569
