@@ -5,6 +5,7 @@ P2 - Formation openclassrooms
 
 
 Compétences évaluées
+
 Appliquer les principes de SEO dans le code HTML
 Adapter l'affichage en fonction de la taille de l'écran
 Créer une animation avec CSS3
@@ -15,6 +16,7 @@ Assurer l'accessibilité du site aux différents types d'utilisateurs
 
 
 Référentiel d'évaluation
+
 Définir la structure de navigation du site
 Le menu est présent et conforme à la demande
 L'ensemble des pages demandées - et leur contenu - est présent
